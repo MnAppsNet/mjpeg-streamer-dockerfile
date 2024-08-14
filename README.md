@@ -1,7 +1,4 @@
 <a href="https://hub.docker.com/r/mnapps/mjpeg-streamer/tags">
-    <img alt="Docker Image Version" src="https://img.shields.io/docker/v/mnapps/mjpeg-streamer?sort=semver&arch=amd64&logo=docker&logoSize=auto" >
-</a>
-<a href="https://hub.docker.com/r/mnapps/mjpeg-streamer/tags">
     <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/mnapps/mjpeg-streamer?logo=docker&logoSize=auto">
 </a>
 
