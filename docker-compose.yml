@@ -1,0 +1,13 @@
+services:
+  mjpg-streamer:
+    restart: always
+    image: mnapps/mjpeg-streamer
+    devices:
+      - /dev/video0:/dev/video0 #Define the correct device as per your setup (the value on the left)
+    ports:
+      - 56000:8080 #You can change the port to anything you want (the value on the left)
+    environment:
+      - RES=640x480
+      - FRAME_RATE=30
+      - INPUT_ARGS=-y #You can put here any additional input arguments for mjpeg-streamer
+      #- OUTPUT_ARGS= #You can put here any additional output arguments for mjpeg-streamer
